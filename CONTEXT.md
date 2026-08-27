@@ -6,6 +6,8 @@ faculty who report to accreditors make and record the actual determination.
 
 Terms below are settled. Anything not listed here is still open; see the
 [wayfinder map](https://github.com/adulbrich/accreditkit/labels/wayfinder%3Amap).
+Accreditor facts here are sourced from
+[docs/research/abet-nwccu-requirements.md](./docs/research/abet-nwccu-requirements.md).
 
 ## Language
 
@@ -17,8 +19,11 @@ CS Systems. One deployment serves one institution and many Programs.
 _Avoid_: Department, tenant, organization
 
 **Accreditor**:
-A body a Program reports to, such as ABET or NWCCU. Accreditors differ in what evidence
-they require and how they decide pass or not-pass, but may share a Student Outcome set.
+A body a Program reports to, such as ABET or NWCCU. Accreditors differ in what they require
+reported and at what scope, and may share a Student Outcome set. Neither ABET nor NWCCU
+computes pass from data: ABET pass is a peer evaluator's per-criterion finding, and NWCCU
+accredits the institution rather than the Program. Any numeric threshold in this system is the
+Program's own.
 _Avoid_: Standard, accreditation body, agency
 
 **Student Outcome**:
@@ -29,8 +34,9 @@ _Avoid_: Learning outcome, program outcome, ABET outcome, competency
 
 **Performance Indicator**:
 A measurable, Program-authored statement of what evidence demonstrates a Student Outcome.
-Authored once at the Program level and reused across Assessment Cycles. Required by ABET;
-not required by NWCCU.
+Authored once at the Program level and reused across Assessment Cycles. Neither ABET nor
+NWCCU mandates the construct; it is how programs in practice organize evidence and how ABET
+evaluators expect to read it.
 _Avoid_: PI (in prose), criterion, measure, benchmark
 
 ### Courses
@@ -76,7 +82,9 @@ _Avoid_: Rubric item, rubric line, criteria (as singular)
 **Data Point**:
 One direct measurement supporting a Student Outcome, produced by a Course Offering. May be as
 fine-grained as a single Rubric Criterion. Indirect measures such as surveys and exit
-interviews do not count. NWCCU requires at least two per Student Outcome.
+interviews do not count, and at least two are expected per Student Outcome. Both of those are
+this project's policy, not accreditor requirements: NWCCU specifies neither, and ABET
+explicitly permits indirect measures.
 _Avoid_: Measure, sample, metric
 
 **Achievement Data**:
