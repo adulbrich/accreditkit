@@ -22,8 +22,9 @@ _Avoid_: Department, tenant, organization
 A body a Program reports to, such as ABET or NWCCU. Accreditors differ in what they require
 reported and at what scope, and may share a Student Outcome set. Neither ABET nor NWCCU
 computes pass from data: ABET pass is a peer evaluator's per-criterion finding, and NWCCU
-accredits the institution rather than the Program. Any numeric threshold in this system is the
-Program's own.
+accredits the institution rather than the Program. Every rule that decides attainment in this
+system, including thresholds and required evidence counts, is the Program's own, sourced from
+institution policy, review feedback, or an accreditation liaison.
 _Avoid_: Standard, accreditation body, agency
 
 **Student Outcome**:
